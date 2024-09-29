@@ -130,21 +130,29 @@ html {
 }
 .navbar a{
     font-weight: 600;
-    letter-spacing: 0.1em;
-    color: #ffffff;
+    color: #823105;
 }
 .navbar a:hover{
     color: rgb(183, 187, 255);
 }
 .logo{
-    font-size: x-large;
-    color: #eec200;
+    font-size: 40px;
+    color: #001429 !important;
+}
+.login{
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: #002b5c;
+    color: #fff;
+    margin-top: 0;
 }
 .nav2{
     display: flex;
     padding: 12px;
     text-align: center;
     justify-content: center;
+    align-items: center;
     font-size: larger;
     font-weight: 600;
     gap: 18px;
