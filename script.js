@@ -110,3 +110,14 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+  var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 16,
+      autoplay:{
+          delay:3000
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
