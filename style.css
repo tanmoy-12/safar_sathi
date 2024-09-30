@@ -249,7 +249,7 @@ html {
     font-weight: 500;
 }
 .about-image{
-    transform: perspective(800px) rotateY(30deg);
+    transform: perspective(800px) rotateY(20deg);
 }
 .about-image img{
     width: 100%;
@@ -258,7 +258,7 @@ html {
     border-radius: 6px;
 }
 #i1{
-    width: 300px;
+    width: 400px;
     height: 400px;
 }
 #i2{
@@ -266,7 +266,7 @@ html {
     height: 300px;
 }
 #i3{
-    width: 300px;
+    width: 350px;
     height: 200px;
 }
   .c1{
